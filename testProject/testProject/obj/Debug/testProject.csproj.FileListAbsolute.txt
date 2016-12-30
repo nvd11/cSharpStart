@@ -1,0 +1,1 @@
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\bin\Debug\testProject.exe.config
