@@ -16,5 +16,19 @@ namespace testProject
         {
             InitializeComponent();
         }
+
+
+
+
+        private void btnTest1_Click(object sender, EventArgs e)
+        {
+            this.tbClientName.Text = "hello";
+
+        }
+
+
+
+
+     
     }
 }

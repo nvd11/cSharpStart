@@ -1,1 +1,9 @@
 I:\MyDocuments\Studies\cSharpStart\testProject\testProject\bin\Debug\testProject.exe.config
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\bin\Debug\testProject.exe
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\bin\Debug\testProject.pdb
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\obj\Debug\testProject.csprojResolveAssemblyReference.cache
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\obj\Debug\testProject.Properties.Resources.resources
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\obj\Debug\testProject.csproj.GenerateResource.Cache
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\obj\Debug\testProject.exe
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\obj\Debug\testProject.pdb
+I:\MyDocuments\Studies\cSharpStart\testProject\testProject\obj\Debug\testProject.Form1.resources
