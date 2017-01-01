@@ -1,0 +1,5 @@
+I:\MyDocuments\Studies\cSharpStart\compassModels\compassModels\bin\Debug\compassModels.dll
+I:\MyDocuments\Studies\cSharpStart\compassModels\compassModels\bin\Debug\compassModels.pdb
+I:\MyDocuments\Studies\cSharpStart\compassModels\compassModels\obj\Debug\compassModels.csprojResolveAssemblyReference.cache
+I:\MyDocuments\Studies\cSharpStart\compassModels\compassModels\obj\Debug\compassModels.dll
+I:\MyDocuments\Studies\cSharpStart\compassModels\compassModels\obj\Debug\compassModels.pdb

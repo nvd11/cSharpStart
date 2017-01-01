@@ -1,4 +1,4 @@
-﻿namespace testProject
+﻿namespace com
 {
     partial class Form1
     {
@@ -30,6 +30,8 @@
         {
             this.btnTest1 = new System.Windows.Forms.Button();
             this.tbClientName = new System.Windows.Forms.TextBox();
+            this.btnTest2 = new System.Windows.Forms.Button();
+            this.btnTestOdbc = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTest1
@@ -49,11 +51,33 @@
             this.tbClientName.Size = new System.Drawing.Size(100, 21);
             this.tbClientName.TabIndex = 1;
             // 
+            // btnTest2
+            // 
+            this.btnTest2.Location = new System.Drawing.Point(25, 216);
+            this.btnTest2.Name = "btnTest2";
+            this.btnTest2.Size = new System.Drawing.Size(75, 23);
+            this.btnTest2.TabIndex = 2;
+            this.btnTest2.Text = "btnTest2";
+            this.btnTest2.UseVisualStyleBackColor = true;
+            this.btnTest2.Click += new System.EventHandler(this.btnTest2_Click);
+            // 
+            // btnTestOdbc
+            // 
+            this.btnTestOdbc.Location = new System.Drawing.Point(25, 267);
+            this.btnTestOdbc.Name = "btnTestOdbc";
+            this.btnTestOdbc.Size = new System.Drawing.Size(75, 23);
+            this.btnTestOdbc.TabIndex = 3;
+            this.btnTestOdbc.Text = "btnTestOdbc";
+            this.btnTestOdbc.UseVisualStyleBackColor = true;
+            this.btnTestOdbc.Click += new System.EventHandler(this.btnTestOdbc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 413);
+            this.Controls.Add(this.btnTestOdbc);
+            this.Controls.Add(this.btnTest2);
             this.Controls.Add(this.tbClientName);
             this.Controls.Add(this.btnTest1);
             this.Name = "Form1";
@@ -67,6 +91,8 @@
 
         private System.Windows.Forms.Button btnTest1;
         private System.Windows.Forms.TextBox tbClientName;
+        private System.Windows.Forms.Button btnTest2;
+        private System.Windows.Forms.Button btnTestOdbc;
     }
 }
 

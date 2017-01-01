@@ -8,7 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace testProject
+using com.model;
+using compassModels.model;
+using com.testProject.test;
+
+namespace com
 {
     public partial class Form1 : Form
     {
@@ -25,6 +29,26 @@ namespace testProject
             this.tbClientName.Text = "hello";
 
         }
+
+        private void btnTest2_Click(object sender, EventArgs e)
+        {
+            Client c = new Client();
+            Product prod = new Product();
+            prod.ProdName = "prodName1";
+
+            this.tbClientName.Text = prod.ProdName;
+
+
+        }
+      
+        private void btnTestOdbc_Click(object sender, EventArgs e)
+        {
+            OdbcTest ot = new OdbcTest();
+            ot.connectODBC();
+
+
+        }
+
 
 
 
