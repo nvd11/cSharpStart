@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using com.model;
 using compassModels.model;
 using com.testProject.test;
+using com.service;
 
 namespace com
 {
@@ -47,6 +48,15 @@ namespace com
             ot.connectODBC();
 
 
+        }
+
+        private void btnTestService1_Click(object sender, EventArgs e)
+        {
+            List<Client> list = new ClientService().getClients();
+            for (int i = 0; i <list.Count ; i++)
+            {
+                Console.WriteLine(list[i]);
+            }
         }
 
 

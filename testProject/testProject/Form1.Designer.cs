@@ -32,6 +32,7 @@
             this.tbClientName = new System.Windows.Forms.TextBox();
             this.btnTest2 = new System.Windows.Forms.Button();
             this.btnTestOdbc = new System.Windows.Forms.Button();
+            this.btnTestService1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTest1
@@ -71,11 +72,22 @@
             this.btnTestOdbc.UseVisualStyleBackColor = true;
             this.btnTestOdbc.Click += new System.EventHandler(this.btnTestOdbc_Click);
             // 
+            // btnTestService1
+            // 
+            this.btnTestService1.Location = new System.Drawing.Point(25, 319);
+            this.btnTestService1.Name = "btnTestService1";
+            this.btnTestService1.Size = new System.Drawing.Size(75, 23);
+            this.btnTestService1.TabIndex = 4;
+            this.btnTestService1.Text = "btnTestService1";
+            this.btnTestService1.UseVisualStyleBackColor = true;
+            this.btnTestService1.Click += new System.EventHandler(this.btnTestService1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 413);
+            this.Controls.Add(this.btnTestService1);
             this.Controls.Add(this.btnTestOdbc);
             this.Controls.Add(this.btnTest2);
             this.Controls.Add(this.tbClientName);
@@ -93,6 +105,7 @@
         private System.Windows.Forms.TextBox tbClientName;
         private System.Windows.Forms.Button btnTest2;
         private System.Windows.Forms.Button btnTestOdbc;
+        private System.Windows.Forms.Button btnTestService1;
     }
 }
 
